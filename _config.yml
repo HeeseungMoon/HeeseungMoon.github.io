@@ -166,6 +166,12 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - "assets/*.tex"
+  - "assets/*.pdf"
+  - "README.md"
+  - "LICENSE"
+  - "Gemfile"
+  - "Gemfile.lock"
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
