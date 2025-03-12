@@ -1,3 +1,12 @@
+layout: post
+title:  "Project 1"
+---
+
+<div style="text-align: center;">
+    This is my project from one of my classes in George Mason University!
+</div>
+
+
 {
  "cells": [
   {
