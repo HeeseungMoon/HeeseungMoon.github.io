@@ -23,8 +23,6 @@ title:  "Global Trade Networks through Rice and Wheat: A Data-Driven View of Glo
   <b> • Research Question & Research Gap</b>
 </div>
 
-<br>
-
 <div>
 Research question: How does virtual water flow between countries, and how can we use social network analysis (SNA) to understand the global structure of this flow?
 </div>
@@ -41,8 +39,6 @@ Research Gap: Most past research focused only on agricultural products and didn�
   <b> • Method</b>
 </div>
 
-<br>
-
 <div>
 What is used: MRIO model (EORA26) + SNA (Density, Asymmetry, In/Out-Degree)
 </div>
@@ -52,8 +48,6 @@ What is used: MRIO model (EORA26) + SNA (Density, Asymmetry, In/Out-Degree)
 <div>
   <b> • Results + Interpretation</b>
 </div>
-
-<br>
 
 <div>
 - Virtual water trade increased over time, with rising density and imbalance.
@@ -80,6 +74,11 @@ What is used: MRIO model (EORA26) + SNA (Density, Asymmetry, In/Out-Degree)
 <br>
 
 <div>
+  <b> • Data sources</b>
+</div>
+
+
+<div>
 Data I used is from the Food and Agriculture Organization (FAO). 
 </div>
 
@@ -94,6 +93,10 @@ Data I used is from the Food and Agriculture Organization (FAO).
 I used the data which is in the section 'Trade' and in 'Detailed trade matrix' and chose Rice and Wheat and import quantity and export quantity. And both sexes population data and macro indicators with Value US$ per capita.
 </div>
 
+<div>
+  <b> • Major characteristics of the data</b>
+</div>
+
 
 <div>
 
@@ -106,6 +109,9 @@ I used the data which is in the section 'Trade' and in 'Detailed trade matrix' a
 <div>
 </div>
 
+<div>
+  <b> • Data pre-processing</b>
+</div>
 
 <div>
 </div>
