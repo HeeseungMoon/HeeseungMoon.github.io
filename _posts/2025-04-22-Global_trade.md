@@ -243,40 +243,24 @@ pop1 = pop[(pop["Value"]>0) & (pop["Element"] == "Total Population - Both sexes"
 pop1 = pop1[(pop1["Area Code"]<5000)]
 ```
 
-<div>
 - Macro indicators data
-</div>
 
 ```python
 mac = pd.read_csv("Macro-Statistics_Key_Indicators_E_All_Data_(Normalized).csv", encoding="cp1252")
-```
-
-```python
 mac = mac[["Area Code", "Area", "Item", "Element", "Year", "Unit", "Value"]]
-```
-
-```python
 mac1 = mac[(mac["Value"]>0) & (mac["Element"] == "Value US$ per capita")]
 mac1 = mac1[(mac1["Area Code"]<5000)]
 ```
 
-<div>
-And I merged them to make a node dataset
-</div>
+- And I merged them to make a node dataset
 
 ```python
-pop1 = pop1.rename(columns={
-    "Area": "country",
-    "Area Code": "country_code"
-})
-
-mac1 = mac1.rename(columns={
-    "Area": "country",
-    "Area Code": "country_code"
-})
+pop1 = pop1.rename(columns={ "Area": "country", "Area Code": "country_code" })
+mac1 = mac1.rename(columns={ "Area": "country", "Area Code": "country_code" })
 
 pop1["country_code"] = pop1["country_code"].astype(str).str.zfill(3)
 mac1["country_code"] = mac1["country_code"].astype(str).str.zfill(3)
+
 pop1["country"] = pop1["country"].str.strip()
 mac1["country"] = mac1["country"].str.strip()
 
