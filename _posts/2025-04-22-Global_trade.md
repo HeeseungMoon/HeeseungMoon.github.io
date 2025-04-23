@@ -94,9 +94,9 @@ I used the data which is in the section 'Trade' and in 'Detailed trade matrix' a
   <b> • Major characteristics of the data</b>
 </div>
 
-<div style="text-align: center;">
+
 ![Original Dataset](/assets/images/original_dataset.png)
-</div>
+
 
 <br>
 
@@ -217,9 +217,9 @@ link = link.rename(columns={
 })[["O_code", "O_name", "D_code", "D_name", "year", "item", "weight"]]
 ```
 
-<div style="text-align: center;">
+
 ![Original_Link](/assets/images/original_link.png)
-</div>
+
 
 <br>
 
@@ -288,9 +288,9 @@ node = pd.merge(
 )
 ```
 
-<div style="text-align: center;">
+
 ![Node](/assets/images/node.png)
-</div>
+
 
 <br>
 
@@ -302,9 +302,9 @@ node = pd.merge(
 To analyze the datasets, I first looked at the desities of rice and wheat through 1986 to 2023.
 </div>
 
-<div style="text-align: center;">
+
 ![Density_of_Rice_and_Wheat](/assets/images/density_of_rice_and_wheat.png)
-</div>
+
 
 <div style="font-size: 18px; text-align: center;">
 <b>• Graph explanation: </b>
@@ -366,9 +366,9 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 - Germany and Italy are also strong importers.
 </div>
 
-<div style="text-align: center;">
+
 ![outdegree](/assets/images/outdegree.png)
-</div>
+
 
 <div style="text-align: center;">
 - Out-degree means how many other countries a country exports to.
@@ -396,9 +396,9 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 • And I looked at these 6 countries to see the patterns over 1986 to 2023. 
 </div>
 
-<div style="text-align: center;">
+
 ![indegreeover](/assets/images/indegreeover.png)
-</div>
+
 
 <div style="text-align: center;">
 - France has always been the top importer with very high in-degree over the years.
@@ -416,9 +416,9 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 - Overall, the top 3 countries remain stable, while the rest show smaller or more unstable import trends.
 </div>
 
-<div style="text-align: center;">
+
 ![outdegreeover](/assets/images/outdegreeover.png)
-</div>
+
 
 <div style="text-align: center;">
 - France is again the highest.
