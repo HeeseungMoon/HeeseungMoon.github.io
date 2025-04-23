@@ -12,7 +12,7 @@ title:  "Global Trade Networks through Rice and Wheat: A Data-Driven View of Glo
     Source
 </div>
 
-<p>
+<p style="text-align: center;">
   📄 <a href="https://github.com/HeeseungMoon/HeeseungMoon.github.io/raw/master/assets/(2021) Deng et al.pdf" target="_blank">(2021) Deng et al.pdf.</a>
 </p>
 
