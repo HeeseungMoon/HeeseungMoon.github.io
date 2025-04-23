@@ -20,7 +20,7 @@ title:  "Global Trade Networks through Rice and Wheat: A Data-Driven View of Glo
   <b>1. Summary of the reading</b>
 </div>
 
-<div>
+<div style="font-size: 18px;">
   <b> • Research Question & Research Gap</b>
 </div>
 
@@ -34,7 +34,7 @@ title:  "Global Trade Networks through Rice and Wheat: A Data-Driven View of Glo
 
 <br>
 
-<div>
+<div style="font-size: 18px;">
   <b> • Method</b>
 </div>
 
@@ -44,7 +44,7 @@ What is used: MRIO model (EORA26) + SNA (Density, Asymmetry, In/Out-Degree)
 
 <br>
 
-<div>
+<div style="font-size: 18px;">
   <b> • Results + Interpretation</b>
 </div>
 
@@ -72,7 +72,7 @@ What is used: MRIO model (EORA26) + SNA (Density, Asymmetry, In/Out-Degree)
 
 <br>
 
-<div>
+<div style="font-size: 18px;">
   <b> • Data sources</b>
 </div>
 
@@ -90,7 +90,7 @@ I used the data which is in the section 'Trade' and in 'Detailed trade matrix' a
 
 <br>
 
-<div>
+<div style="font-size: 18px;">
   <b> • Major characteristics of the data</b>
 </div>
 
@@ -106,7 +106,7 @@ This is the original dataset from FAO. The dataset contains over 50 million rows
 
 <br>
 
-<div>
+<div style="font-size: 18px;">
   <b> • Data pre-processing</b>
 </div>
 
@@ -121,7 +121,9 @@ Before I do the analysis for wheat and rice I had to clean the dataset, so I can
 </div>
 
 ```python
+
 df2 = df[(df["Value"]>0) & (df["Element"] == "Export quantity") & (df["Item"] == "Wheat")]
+
 ```
 
 ```python
@@ -287,6 +289,8 @@ node = pd.merge(
 
 ![Node](/assets/images/node.png)
 
+<br>
+
 <div style="font-size: 36px;">
   <b>3. Analysis</b>
 </div>
@@ -298,7 +302,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 
 ![Density of Rice and Wheat](/assets/images/density%20of%20rice%20and%20wheat.png)
 
-<div>
+<div style="font-size: 18px;">
 <b>• Graph explanation: </b>
 </div>
 
@@ -336,7 +340,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 
 <br>
 
-<div>
+<div style="font-size: 18px;">
 <b>• Out-degree and In-degree Distributions </b>
 </div>
 
@@ -423,7 +427,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 
 <br>
 
-<div>
+<div style="font-size: 18px;">
 <b>• Network Visualization: </b>
 </div>
 
@@ -450,7 +454,11 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 - Big and central countries like France and Germany connect many others. Countries with the same color often trade more with each other. Some countries are not very connected and are at the edges.
 </div>
 
+<br>
 
+<div style="font-size: 18px;">
+- Rice trade map
+</div>
 
 
 
@@ -488,6 +496,10 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 
 
 <br>
+
+<div style="font-size: 18px;">
+- Wheat trade map
+</div>
 
 <iframe src="/assets/wheat_trade_map.html" width="100%" height="700px" frameborder="0"></iframe>
 
