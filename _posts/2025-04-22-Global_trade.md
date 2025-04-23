@@ -96,7 +96,7 @@ I used the data which is in the section 'Trade' and in 'Detailed trade matrix' a
 
 <br>
 
-![Original Dataset](../assets/images/original%20dataset.png)
+![Original Dataset](/assets/images/original%20dataset.png)
 
 <br>
 
@@ -216,7 +216,7 @@ link = link.rename(columns={
 })[["O_code", "O_name", "D_code", "D_name", "year", "item", "weight"]]
 ```
 
-![Original Link](../assets/images/original%20link.png)
+![Original Link](/assets/images/original%20link.png)
 
 <br>
 
@@ -285,7 +285,7 @@ node = pd.merge(
 )
 ```
 
-![Node](../assets/images/node.png)
+![Node](/assets/images/node.png)
 
 <div style="font-size: 36px;">
   <b>3. Analysis</b>
@@ -296,7 +296,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 </div>
 
 
-![Density of Rice and Wheat](../assets/images/density%20of%20rice%20and%20wheat.png)
+![Density of Rice and Wheat](/assets/images/density%20of%20rice%20and%20wheat.png)
 
 <div>
 <b>• Graph explanation: </b>
@@ -344,7 +344,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 - I calculated weighted in-degrees and out-degrees for all countries to identify dominant importers/exporters for 2023 year. And checked the top five exporting and importing countries 
 </div>
 
-![indegree](../assets/images/indegree.png)
+![indegree](/assets/images/indegree.png)
 
 <div>
 - So, In-degree means how many other countries a country imports from.
@@ -358,7 +358,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 - Germany and Italy are also strong importers.
 </div>
 
-![outdegree](../assets/images/outdegree.png)
+![outdegree](/assets/images/outdegree.png)
 
 <div>
 - Out-degree means how many other countries a country exports to.
@@ -385,7 +385,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 • And I looked at these 6 countries to see the patterns over 1986 to 2023. 
 </div>
 
-![indegreeover](../assets/images/indegreeover.png)
+![indegreeover](/assets/images/indegreeover.png)
 
 <div>
 - France has always been the top importer with very high in-degree over the years.
@@ -403,7 +403,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 - Overall, the top 3 countries remain stable, while the rest show smaller or more unstable import trends.
 </div>
 
-![outdegreeover](../assets/images/outdegreeover.png)
+![outdegreeover](/assets/images/outdegreeover.png)
 
 <div>
 - France is again the highest.
@@ -431,7 +431,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 - Using force-directed, I visualized core trade networks, incorporating node size (betweenness centrality) and node color (modularity). This allowed identification of central actors and clustered communities.
 </div>
 
-![network](../assets/images/network.png)
+![network](/assets/images/network.png)
 
 
 <div>
@@ -456,7 +456,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 
 
 
-<iframe src="/assets/trade_maps/rice_trade_map.html" width="100%" height="700px" frameborder="0"></iframe>
+<iframe src="/assets/rice_trade_map.html" width="100%" height="700px" frameborder="0"></iframe>
 
 <div>
 - This map shows the global rice trade network using nodes and curved lines
@@ -489,7 +489,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 
 <br>
 
-<iframe src="/assets/trade_maps/wheat_trade_map.html" width="100%" height="700px" frameborder="0"></iframe>
+<iframe src="/assets/wheat_trade_map.html" width="100%" height="700px" frameborder="0"></iframe>
 
 <div>
 - This map shows the international wheat trade network using nodes and curved edges
