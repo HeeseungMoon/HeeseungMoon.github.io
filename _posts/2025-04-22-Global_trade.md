@@ -218,7 +218,7 @@ link = link.rename(columns={
 ```
 
 <div style="text-align: center;">
-![Original Link](/assets/images/original%20link.png)
+![Original Link](/assets/images/original_link.png)
 </div>
 
 <br>
