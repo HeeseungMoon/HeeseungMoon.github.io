@@ -3,7 +3,6 @@ layout: post
 title:  "Global Trade Networks through Rice and Wheat: A Data-Driven View of Global Flows"
 ---
 
-<div style="max-width: 800px; margin: 0 auto; padding: 0 2rem;">
 
 <div style="text-align: center;">
     This project is from my class. Feel free to look around.
@@ -94,7 +93,6 @@ I used the data which is in the section 'Trade' and in 'Detailed trade matrix' a
   <b> • Major characteristics of the data</b>
 </div>
 
-<br>
 
 ![Original Dataset](/assets/images/original%20dataset.png)
 
@@ -110,7 +108,6 @@ This is the original dataset from FAO. The dataset contains over 50 million rows
   <b> • Data pre-processing</b>
 </div>
 
-<br>
 
 <div>
 Before I do the analysis for wheat and rice I had to clean the dataset, so I can use the data that I need it.
@@ -243,24 +240,40 @@ pop1 = pop[(pop["Value"]>0) & (pop["Element"] == "Total Population - Both sexes"
 pop1 = pop1[(pop1["Area Code"]<5000)]
 ```
 
+<div>
 - Macro indicators data
+</div>
 
 ```python
 mac = pd.read_csv("Macro-Statistics_Key_Indicators_E_All_Data_(Normalized).csv", encoding="cp1252")
+```
+
+```python
 mac = mac[["Area Code", "Area", "Item", "Element", "Year", "Unit", "Value"]]
+```
+
+```python
 mac1 = mac[(mac["Value"]>0) & (mac["Element"] == "Value US$ per capita")]
 mac1 = mac1[(mac1["Area Code"]<5000)]
 ```
 
-- And I merged them to make a node dataset
+<div>
+And I merged them to make a node dataset
+</div>
 
 ```python
-pop1 = pop1.rename(columns={ "Area": "country", "Area Code": "country_code" })
-mac1 = mac1.rename(columns={ "Area": "country", "Area Code": "country_code" })
+pop1 = pop1.rename(columns={
+    "Area": "country",
+    "Area Code": "country_code"
+})
+
+mac1 = mac1.rename(columns={
+    "Area": "country",
+    "Area Code": "country_code"
+})
 
 pop1["country_code"] = pop1["country_code"].astype(str).str.zfill(3)
 mac1["country_code"] = mac1["country_code"].astype(str).str.zfill(3)
-
 pop1["country"] = pop1["country"].str.strip()
 mac1["country"] = mac1["country"].str.strip()
 
@@ -511,11 +524,3 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 - Overall, This map is showing France, Germany, and Canada as major exporters. Red trade flows show how wheat moves mainly from Europe and North America to Africa and Asia, revealing the structure and direction of global wheat distribution.
 </div>
 
-
-
-
-
-
-
-
-</div>
