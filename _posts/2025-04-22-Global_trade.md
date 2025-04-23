@@ -218,7 +218,7 @@ link = link.rename(columns={
 ```
 
 <div style="text-align: center;">
-![Original Link](/assets/images/original_link.png)
+![Original_Link](/assets/images/original_link.png)
 </div>
 
 <br>
@@ -303,7 +303,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 </div>
 
 <div style="text-align: center;">
-![Density of Rice and Wheat](/assets/images/density_of_rice_and_wheat.png)
+![Density_of_Rice_and_Wheat](/assets/images/density_of_rice_and_wheat.png)
 </div>
 
 <div style="font-size: 18px; text-align: center;">
