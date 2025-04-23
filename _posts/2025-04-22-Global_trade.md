@@ -94,7 +94,7 @@ I used the data which is in the section 'Trade' and in 'Detailed trade matrix' a
 </div>
 
 
-![Original Dataset](/assets/images/original%20dataset.png)
+![Original Dataset](/assets/images/original_dataset.png)
 
 <br>
 
@@ -297,7 +297,7 @@ To analyze the datasets, I first looked at the desities of rice and wheat throug
 </div>
 
 
-![Density of Rice and Wheat](/assets/images/density%20of%20rice%20and%20wheat.png)
+![Density of Rice and Wheat](/assets/images/density_of_rice_and_wheat.png)
 
 <div style="font-size: 18px;">
 <b>• Graph explanation: </b>
