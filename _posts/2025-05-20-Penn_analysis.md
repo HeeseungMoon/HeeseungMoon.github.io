@@ -111,7 +111,7 @@ title:  "Analyzing Urban Communities in Pennsylvania"
 
 
 <div style="text-align: center;">
-  <a href="/assets/data/R13859119_SL050.csv" target="_blank">R13859119_SL050.csv (Download)</a>
+  <a href="/assets/data/COUNTY_2019_US_SL050_Coast_Clipped.shp" target="_blank">R13859119_SL050.csv (Download)</a>
 </div>
 
 <div style="text-align: center;">
@@ -119,7 +119,7 @@ title:  "Analyzing Urban Communities in Pennsylvania"
 </div>
 
 <div style="text-align: center;">
-  <a href="/assets/data/CBSA_(MSA)_2019_US_S_2022-12-14_12-25-07-474.zip" target="_blank">
+  <a href="/assets/data/CBSA__MSA__2019_US_SL310_Coast_Clipped.shp" target="_blank">
     CBSA (MSA) 2019 US ZIP (Download)
   </a>
 </div>
