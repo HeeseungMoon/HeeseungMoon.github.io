@@ -1,0 +1,220 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13859119
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2023 (5-Year Estimates)
+Dataset:          Social Explorer Tables: ACS 2023 (5-Year Estimates)
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      A00001
+         Variables:
+            A00001_001:   Total Population
+
+
+      2. Population Density (Per Sq. Mile)
+         Universe:  Total Population
+         Name:      A00002
+         Variables:
+            A00002_001:   Total Population
+            A00002_002:   Population Density (Per Sq. Mile)
+            A00002_003:   Area (Land)
+
+
+      3. Housing Units by Household Size
+         Universe:  Universe:  Occupied housing units
+         Name:      A10024
+         Variables:
+            A10024_001:   Occupied Housing Units:
+            A10024_002:      1-Person Household
+            A10024_003:      2-Person Household
+            A10024_004:      3-Person Household
+            A10024_005:      4-Person Household
+            A10024_006:      5-Person Household
+            A10024_007:      6-Person Household
+            A10024_008:      7-or-More Person Household
+
+
+      4. Race
+         Universe:  Total Population
+         Name:      A03001
+         Variables:
+            A03001_001:   Total Population:
+            A03001_002:      White Alone
+            A03001_003:      Black or African American Alone
+            A03001_004:      American Indian and Alaska Native Alone
+            A03001_005:      Asian Alone
+            A03001_006:      Native Hawaiian and Other Pacific Islander Alone
+            A03001_007:      Some Other Race Alone
+            A03001_008:      Two or More Races
+
+
+      5. Educational Attainment for Population 25 Years and Over
+         Universe:  Population 25 Years and Over
+         Name:      A12001
+         Variables:
+            A12001_001:   Population 25 Years and Over:
+            A12001_002:      Less than High School
+            A12001_003:      High School Graduate or More (Includes Equivalency)
+            A12001_004:      Some College or More
+            A12001_005:      Bachelor's Degree or More
+            A12001_006:      Master's Degree or More
+            A12001_007:      Professional School Degree or More
+            A12001_008:      Doctorate Degree
+
+
+      6. Unemployment Rate for Civilian Population in Labor Force 16 Years and Over
+         Universe:  Civilian Population in Labor Force 16 Years and Over:
+         Name:      A17005
+         Variables:
+            A17005_001:   Civilian Population in Labor Force 16 Years and Over:
+            A17005_002:      Employed
+            A17005_003:      Unemployed
+
+
+      7. Median Household Income (In <DollarYear> Inflation Adjusted Dollars)
+         Universe:  Households
+         Name:      A14006
+         Variables:
+            A14006_001:   Median Household Income (In 2023 Inflation Adjusted Dollars)
+
+
+      8. Median Year Structure Built
+         Universe:  Housing units
+         Name:      A10057
+         Variables:
+            A10057_001:   Median Year Structure Built
+
+
+      9. Average Commute to Work (In Min)
+         Universe:  Average Commute to Work (In min)
+         Name:      A09003
+         Variables:
+            A09003_001:   Average Commute to Work (In Min)
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      QName:          Qualifying Name
+      STUSAB:         State Postal Abbreviation
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      US:             US
+      REGION:         Census Region
+      DIVISION:       Census Division
+      STATE:          State (FIPS Code)
+      COUNTY:         County of current residence
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Statistical Area Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Area
+      CNECTA:         New England City and Town Combined Statistical Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          5-digit ZIP Code Tabulation Area
+      SUBMCD:         Subminor Civil Division (FIPS)
+      SDELM:          State-School District (Elementary)
+      SDSEC:          State-School District (Secondary)
+      SDUNI:          State-School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      PUMA5:          Public Use Microdata Area – File
+      GEO_ID:         Geographic Identifier
+      NAME:           Area Name
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PLACESE:        Place (State FIPS + Place FIPS)
+      A00001_001:     Total Population
+      A00002_001:     Total Population
+      A00002_002:     Population Density (Per Sq. Mile)
+      A00002_003:     Area (Land)
+      A10024_001:     Occupied Housing Units
+      A10024_002:     Occupied Housing Units: 1-Person Household
+      A10024_003:     Occupied Housing Units: 2-Person Household
+      A10024_004:     Occupied Housing Units: 3-Person Household
+      A10024_005:     Occupied Housing Units: 4-Person Household
+      A10024_006:     Occupied Housing Units: 5-Person Household
+      A10024_007:     Occupied Housing Units: 6-Person Household
+      A10024_008:     Occupied Housing Units: 7-or-More Person Household
+      A03001_001:     Total Population:
+      A03001_002:     Total Population: White Alone
+      A03001_003:     Total Population: Black or African American Alone
+      A03001_004:     Total Population: American Indian and Alaska Native Alone
+      A03001_005:     Total Population: Asian Alone
+      A03001_006:     Total Population: Native Hawaiian and Other Pacific Islander Alone
+      A03001_007:     Total Population: Some Other Race Alone
+      A03001_008:     Total Population: Two or More Races
+      A12001_001:     Population 25 Years and Over:
+      A12001_002:     Population 25 Years and Over: Less than High School
+      A12001_003:     Population 25 Years and Over: High School Graduate or More (Includes Equivalency)
+      A12001_004:     Population 25 Years and Over: Some College or More
+      A12001_005:     Population 25 Years and Over: Bachelor's Degree or More
+      A12001_006:     Population 25 Years and Over: Master's Degree or More
+      A12001_007:     Population 25 Years and Over: Professional School Degree or More
+      A12001_008:     Population 25 Years and Over: Doctorate Degree
+      A17005_001:     Civilian Population in Labor Force 16 Years and Over:
+      A17005_002:     Civilian Population in Labor Force 16 Years and Over: Employed
+      A17005_003:     Civilian Population in Labor Force 16 Years and Over: Unemployed
+      A14006_001:     Median Household Income (In 2023 Inflation Adjusted Dollars)
+      A10057_001:     Median Year Structure Built
+      A09003_001:     Average Commute to Work (In Min)
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2025
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13859119
+
+If you have any questions contact info@socialexplorer.com
